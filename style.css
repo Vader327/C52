@@ -2,3 +2,53 @@ html, body {
   margin: 0;
   padding: 0;
 }
+h1, h2, p{
+  font-family: 'Duru Sans';
+  color: rgb(91, 178, 248);
+  text-align: center;
+}
+img{
+  transition: transform 0.5s;
+}
+img:hover{
+  transform: scale(1.1);
+}
+
+.headerBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightgray;
+  border: 2px solid gray;
+}
+
+.menu{
+  display: flex;
+  font-family: 'Quicksand';
+  background-color: rgb(203, 247, 203);
+  justify-content: space-evenly;
+  border: 2px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.objects{
+  border: 2px solid gray;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  background-color: ivory;
+}
+.objects img{
+  border: 2px solid gray;
+}
+.objects p{
+  flex: 1 0 80%;
+  padding-bottom: 10px;
+}
+
+.social_media{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightcyan;
+}
