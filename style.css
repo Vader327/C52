@@ -26,7 +26,29 @@ h1, h2, p{
   padding-bottom: 10px;
 }
 
+.link{
+  font-family: 'Duru Sans';
+  font-size: 15px;
+  color: black;
+}
+.link:visited .linkButton{
+  width: 100px;
+  height: 40px;
+  font-family: 'Duru Sans';
+  font-size: 15px;
+  color: black;
+  background: transparent;
+  outline: none;
+  border: 3px solid #90e7bc;
+  transition: all 0.5s ease-in-out;
+}
+.link:visited .linkButton:hover{
+  transform: scale(1.1);
+  background: #90e7bc;
+}
+
 .linkButton{
+  cursor: pointer;
   width: 100px;
   height: 40px;
   font-family: 'Duru Sans';
@@ -43,6 +65,9 @@ h1, h2, p{
   background: #5bb2f8;
 }
 
+.objectsHeader{
+  background-color: #eeeeee;
+}
 .objects{
   border: 2px solid #808080;
   display: flex;
